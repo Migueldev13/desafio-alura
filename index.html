@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/header-nav.css">
+    <link rel="stylesheet" href="./style/section.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/nav-mobile.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <title>Portifólio</title>
+</head>
+<body>
+    <header> 
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">sobre mim</a></li>
+                <li><a href="#formacao">formação</a></li>
+                <li><a href="#experiencias">experiências</a></li>
+                <li><a href="#habilidades">habilidades</a></li>
+                <li><a href="#interesses">interesses</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <img class="icone-menu" src="./assets/menubar-preto.png">
+    
+    <div id="menu-mobile" class="menu-mobile display-menu">
+        <img id="menu-exit" class="icone-exit" src="./assets/close.png" >
+        <div class="nav-mobile">
+            <ul>
+                <li><a href="#sobre-mim">sobre mim</a></li>
+                <li><a href="#formacao">formação</a></li>
+                <li><a href="#experiencias">experiências</a></li>
+                <li><a href="#habilidades">habilidades</a></li>
+                <li><a href="#interesses">interesses</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section>
+        <div class="pessoa">
+            <h1>Miguel Costa</h1>
+            <h2>Desenvolvedor Front-End</h2>
+            
+            <div class="contato">
+                <img class="icones-informacoes" src="./assets/gmail-48.png">
+                <p>miguelcosta.dev@gmail.com</p>
+            </div>
+
+        </div>
+        
+        <div class="avatar"></div>
+        <div class="midias">
+            <a href="https://www.linkedin.com/in/miguel-costa-3284b9273/" target="_blank"><img src="./assets/linkedIn.png"></a>
+
+            <a href="https://github.com/Migueldev13" target="_blank"><img src="./assets/github.png"></a>
+
+        </div>
+        
+    </section>
+
+    <main>
+        <div class="sobre-mim" id="sobre-mim">
+            <img src="./assets/miguel-foto.png" class="foto-sobre-mim margem-caixas">
+
+            <div class="texto-sobre-mim">
+                <h3 class="titulo">Sobre mim</h3>
+                <p>Olá! Eu sou a Miguel Costa aluno da Alura. Estou me especializando em front-end, mas sempre busco aprender conteúdos diversos que podem me ajudar nessa jornada como desenvolverdor de software.
+                </p>
+            </div>
+        </div>
+
+        <div id="formacao">
+            <h3 class="titulo">Formação<h3>
+                <ul>
+                    <li class="background-texto margem-caixas">Estou cursando o melhor curso de capacitação em Front-End do Brasil oferecido pela <a href="https://www.alura.com.br/" target="_blank"> Alura.</a></li>
+                </ul>
+        </div>
+
+        <div id="experiencias">
+            <h3 class="titulo">Experiências</h3>
+            <ul>
+                <li class="background-texto margem-caixas">Vice-presidente da ong Acorda Capoeira, 2004/2023</li>
+                <li class="background-texto margem-caixas">Brigada de Infantaria Paraquedista 2010/2013</li>
+            </ul>
+        </div>
+        
+        <div id="habilidades">
+            <h3 class="titulo">Habilidades</h3>
+            <ul>
+                <li class="background-texto margem-caixas">Hard skills:HTML; CSS; JAVASCRIPT; GIT; GITHUB</li>
+                <li class="background-texto margem-caixas">Soft Skills:Trabalho em equipe; resolução de problemas; Criatividade</li>
+            </ul>
+        </div>
+
+        <div id="interesses">
+            <h3 class="titulo">Interesses</h3>
+            <img src="./assets/computador .png" class="icones-interesses" id="interesse-mario">
+            <img src="./assets/html-66.png" class="icones-interesses" id="interesse-serie">
+            <img src="./assets/capoeira-64.png" class="icones-interesses" id="interesse-pokemon">
+            <img src="./assets/boxe.png" class="icones-interesses" id="interesse-aviao">
+            <img src="./assets/hiking-64.png" class="icones-interesses" id="interesse-passaro">
+        </div>
+
+        <div id="caixa-texto-interesses" class="display-informacoes-interesses">
+            <p id="texto-interesse" class="background-texto margem-caixas"></p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-informacoes">
+            <img src="./assets/contacts-68.png" class="icones-informacoes">
+
+            <p class="fale-comigo">Fale comigo através do meu <a href="mailto:miguelcosta.dev@gmail.com">e-mail</a> ou <a href="https://www.convertte.com.br/gerador-link-whatsapp/" target="_blank">whatsapp</a>.</p>  
+        </div>
+        
+        <p>Miguel Costa<br>2023</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

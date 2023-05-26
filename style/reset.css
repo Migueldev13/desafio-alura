@@ -1,0 +1,49 @@
+
+/* Reset CSS */
+
+/* Box sizing border-box em todos os elementos */
+* {
+    /*flex-direction: column;
+    align-items: center;*/
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+    font-family:'Zilla Slab',sans-serif;
+    font-size: 100%;
+    color: black;
+    font-weight: bold;
+  }
+  
+  /* Remove decoração de hyperlink */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Define a fonte e a cor padrão */
+  body {
+    font-family: Arial, sans-serif;
+    color: #000;
+  }
+  
+  /* Remove as marcações de lista */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remova o espaçamento padrão entre elementos */
+  p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Define a largura máxima para os elementos */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Limpa as configurações padrão de formulário */
+  input, textarea, button {
+    border: none;
+    outline: none;
+  }

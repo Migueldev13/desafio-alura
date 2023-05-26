@@ -1,0 +1,135 @@
+section {
+    width: 1020px;
+    height: 480px;
+    margin: 0 auto;
+    padding-top: 48px;
+    position: relative;
+    color: rgb(255, 229, 229);
+}
+
+.pessoa {
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+    
+    
+}
+
+.pessoa h1 {
+    font-size: 70px;
+    margin-top: 64px;
+    color: rgb(0, 0, 0); 
+}
+
+.avatar {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: url('../assets/Miguel--Logo.png');
+    background-position: center;
+    background-size: cover;
+    left: 580px;
+    top: 120px;
+    border-radius: 50%;
+    border: rgb(0, 0, 0) 10px solid;
+}
+
+.pessoa h2 {
+    margin: 16px 0;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+.icones-informacoes {
+    width: 60px;
+    
+}
+
+.contato {
+    position: relative;
+    margin-top: 1px;
+    
+}
+
+.contato p {
+    position: absolute;
+    top: 12px;
+    left: 68px;
+}
+
+.midias {  
+    position: absolute;
+    right: 0;
+    top: 170px;
+}
+
+.midias img {
+    width: 88px;
+    display: block;
+    margin-bottom: 8px;
+    transition: 0.7s transform;
+}
+
+.midias img:hover {
+    transform: scale(1.5);
+}
+
+@media screen and (max-width:1040px) {
+    section {
+        width: 360px;
+        height: 440px;
+    }
+
+    .avatar {
+       display: none; 
+    }
+
+    .pessoa {
+        display: block;
+    }
+
+    .pessoa h1 {
+        text-align: center;
+        font-size: 28px;
+        margin-top: 120px;
+    }
+
+    .pessoa h2 {
+        text-align: center;
+        font-size: 14px;
+        margin: 4px 0 24px;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    .icones-informacoes {
+        width: 32px;
+    }
+    
+    .contato {
+        position: relative;
+        margin-left: 32px;
+    }
+    
+    .contato p {
+        top: 7px;
+        left: 40px;
+    }
+
+    .midias {  
+        position: absolute;
+        top: 400px;
+        right: 0;
+        left: 0px;
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .midias img {
+        width: 48px;
+        display: inline-block;
+        margin-bottom: 8px;
+    }
+}
